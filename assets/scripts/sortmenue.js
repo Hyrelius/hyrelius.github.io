@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const select = document.getElementById("sortSelect");
+    const select = document.getElementById("sortOption");
     const container = document.querySelector(".homeTable");
   
     select.addEventListener("change", () => {
