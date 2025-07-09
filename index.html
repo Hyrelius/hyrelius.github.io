@@ -1,26 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Projects</title>
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <title>sigma website</title>
+  <link rel="stylesheet" href="assets/css/hubstyle.css"/>
+  <script src="assets/js/sortmenue.js"></script>
 </head>
+
 <body>
+  <div class="banner" role="img" aria-label="Banner image"></div>
+
   <header>
-    <h1>My Projects</h1>
+    <div class="title">PLACEHOLDER TITLE</div>
+    <nav aria-label="Primary navigation">
+      <a href="#home">PLACEHOLDER</a>
+      <a href="#projects">PLACEHOLDER</a>
+      <a href="#about">PLACEHOLDER</a>
+      <a href="#contact">PLACEHOLDER</a>
+    </nav>
   </header>
 
-  <main class="project-grid">
-    <a href="projects/project1.html" class="project-box">
-      <h2>Project 1</h2>
-      <p>A short description of Project 1.</p>
-    </a>
-    <a href="projects/project2.html" class="project-box">
-      <h2>Project 2</h2>
-      <p>A short description of Project 2.</p>
-    </a>
-    <!-- Add more boxes as needed -->
+  <div style="margin: 20px 0; text-align: right;">
+    <label for="sortOption">Sort by:</label>
+    <select id="sortOption">
+      <option value="date-desc">Newest First</option>
+      <option value="date-asc">Oldest First</option>
+    </select>
+  </div>
+
+  <main id="content">
+    <div class="homeTable">
+
+      <a href="demo.html" class="homeCell color-1" target="_blank" data-date="20250907">
+        <img src="https://placehold.co/600x400" class = "homeCellBackground-big">
+        <div class="textOverlay">
+          <h2 class="homeCellTitle">PLACEHOLDER TITLE<span class="arrow"></span></h2>
+          <div class="homeCellSubtitle">PLACEHOLDER SUBTITLE</div>
+          <div class="homeCellDate">2025</div>
+        </div>
+      </a>
+
+
+    </div>
   </main>
+
+
+  <footer>
+    <a href="#privacy">PLACEHOLDER</a>|
+    <a href="#terms">PLACEHOLDER</a>|
+    <a href="#help">PLACEHOLDER</a>
+  </footer>
+
+
 </body>
 </html>
