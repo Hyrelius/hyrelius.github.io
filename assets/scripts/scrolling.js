@@ -1,6 +1,22 @@
 const container = document.getElementById("scrollContainer");
 const sections = container.querySelectorAll('.section');
 
+// Debug logging for GitHub Pages
+console.log('Scrolling script loaded');
+console.log('Container found:', !!container);
+console.log('Sections found:', sections.length);
+
+// Update debug info
+const debugInfo = document.getElementById('debug-info');
+if (debugInfo) {
+    debugInfo.innerHTML = `
+        Script: Loaded<br>
+        Container: ${!!container}<br>
+        Sections: ${sections.length}<br>
+        Scroll Width: ${container ? container.scrollWidth : 'N/A'}
+    `;
+}
+
 function getCurrentSection() {
     // Find the section closest to the left edge of the container
     let minDiff = Infinity;
