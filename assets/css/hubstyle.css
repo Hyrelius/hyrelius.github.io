@@ -10,7 +10,7 @@ body, html {
 .banner {
   width: 100%;
   height: 150px;
-  background: url('https://placehold.co/1200x300') center center/cover no-repeat;
+  background: url('https://picsum.photos/id/1026/1200/400') center center/cover no-repeat;
 }
 
 
@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-  color: tomato;
+  color: #c33e38;
 }
 
 /* Main Content */
@@ -67,7 +67,7 @@ footer a {
 }
 
 footer a:hover {
-  color: tomato;
+  color: #c33e38;
 }
   
   .homeTable {
@@ -82,7 +82,6 @@ footer a:hover {
     position: relative;
     cursor: pointer;
     overflow: hidden;
-    border-radius: 8px;
     height: 300px;
     text-decoration: none;
     color: white;
@@ -92,6 +91,9 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    border-style: solid;
+    border-color: #2c2c2c;
+    border-width: 1px;
     
   }
   .homeCell:hover {
@@ -183,10 +185,10 @@ footer a:hover {
   }
 
   .color-1 {
-    color: tomato;
+    color: #c33e38;
   }
   .color-1 .homeCellTitle::before {
-    background-color: tomato;
+    background-color: #c33e38;
   }
 
   .color-2 {
