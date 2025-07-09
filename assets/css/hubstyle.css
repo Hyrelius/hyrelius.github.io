@@ -183,10 +183,10 @@ footer a:hover {
   }
 
   .color-1 {
-    color: #F53;
+    color: tomato;
   }
   .color-1 .homeCellTitle::before {
-    background-color: #F53;
+    background-color: tomato;
   }
 
   .color-2 {
