@@ -4,7 +4,6 @@ body, html {
   background: #121212;
   color: #222;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
 }
 
